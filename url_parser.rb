@@ -17,9 +17,3 @@ class UrlParser
 
     end
 end
-
-# pars = UrlParser.new "http://www.google.com:60/search?q=cat&name=Tim#img=FunnyCat"
-# p pars.query_string
-
-
- # ["http", nil, "www.google.com", "60", nil, "/search", nil, "q=cat&name=Tim", "img=FunnyCat"]
